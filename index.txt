@@ -1,0 +1,804 @@
+Sarsa - News & Magazine HTML Template
+
+Sarsa - News & Magazine HTML Template
+
+this is News & Magazine Html Template made by DuoDevs
+
+
+
+/*-----------------------------------*\
+  #TOPBAR
+\*-----------------------------------*/
+
+<ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+Search here
+
+alt = logo
+
+subscribe
+
+ENG
+<ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+
+
+
+/*-----------------------------------*\
+  #Header & Navbar
+\*-----------------------------------*/
+
+HOME
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+LIFESTYLE
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+TRAVEL
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+POST TYPE
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+NFT
+
+<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+<!-- navbar -->
+
+alt = logo
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Search here...
+
+Home
+Lifestyle
+Travel
+Post Type
+NFT
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+
+/*-----------------------------------*\
+  #ASIDE
+\*-----------------------------------*/
+
+alt = logo
+<ion-icon name="close-outline"></ion-icon>
+
+Change how the world works with Biotellus, made for ecology.
+
+Get In Touch
+
+<ion-icon name="mail" aria-hidden="true"></ion-icon>
+info@webmail.com
+
+<ion-icon name="call" aria-hidden="true"></ion-icon>
+888 999 888 77
+
+<ion-icon name="location" aria-hidden="true"></ion-icon>
+12/A, New Booston, NYC
+
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+
+/*-----------------------------------*\
+  #HOME
+\*-----------------------------------*/
+
+img
+
+TECHNOLOGY
+BY ALONSO D.
+NOV 21, 2022
+
+The multiverse is a hypothetical group of multiple universes.
+
+img
+
+MULTIVERSE
+Together these universes comprise everything that exists
+
+img
+
+TECHNOLOGY
+Bubble universes or baby black hole universes may exist...
+
+
+/*-----------------------------------*\
+  #POPULAR
+\*-----------------------------------*/
+
+POPULAR POSTS
+
+Trending News
+
+More Post
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = card banner
+
+<ion-icon name="flash" aria-hidden="true"></ion-icon>
+<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+GAMING
+
+BY
+MIRANDA H.
+
+Scientists speculate that ours might not be held
+
+<ion-icon name="cellular" aria-hidden="true"></ion-icon>
+1.0k
+
+<ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+128
+
+<ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+29
+
+
+
+/*-----------------------------------*\
+  #FEATURED
+\*-----------------------------------*/
+
+FEATURED
+
+Editor Choice
+
+More Featured Post
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = featured card banner
+09
+
+GAMING
+BY
+YOKOLILI L.
+A hypothetical collection of potentially diverse
+
+alt = featured card banner
+010
+
+TECH
+BY
+YOKOLILI L.
+Experimentally accessible by a connected community
+
+alt = featured card banner
+011
+
+MOVIE
+BY
+YOKOLILI L.
+Stanford physicists Andrei Linde In a new study
+
+alt = featured card banner
+012
+
+SPORTS
+BY
+YOKOLILI L.
+Observable universes each of which would comprise
+
+alt = featured card banner
+013
+
+GAMING
+BY
+YOKOLILI L.
+Of observers the observable known universe
+
+alt = featured card banner
+014
+
+TECH
+BY
+YOKOLILI L.
+Accessible to telescopes, is about 90 billion years
+
+alt = featured banner
+
+
+/*-----------------------------------*\
+  #VIDEO
+\*-----------------------------------*/
+
+VIDEO
+
+Recent Video Post
+
+More Video Post
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = smart phone img
+<ion-icon name="play" aria-hidden="true"></ion-icon>
+
+TECHNOLOGY
+
+BY
+ALONSO D.
+
+NOV 21, 2022
+
+The multiverse is a hypothetical group of multiple universes.
+
+alt = sports img
+<ion-icon name="play" aria-hidden="true"></ion-icon>
+
+SPORTS
+
+BY
+ALONSO D.
+
+Observable universes each of which would comprise
+
+alt = gaming img
+<ion-icon name="play" aria-hidden="true"></ion-icon>
+
+GAMING
+
+BY
+ALONSO D.
+
+Scientists speculate that ours might not be held
+
+alt = tech img
+<ion-icon name="play" aria-hidden="true"></ion-icon>
+
+TECH
+
+BY
+ALONSO D.
+
+The Multiverse is the collection of alternate universes
+
+alt = movie img
+<ion-icon name="play" aria-hidden="true"></ion-icon>
+
+MOVIE
+
+BY
+ALONSO D.
+
+That share a universal hierarchy a large variety of these
+
+
+/*-----------------------------------*\
+  #HAND PICKED
+\*-----------------------------------*/
+
+HAND-PICKED
+
+More to Watch
+
+Hand-Picked Post
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = card banner
+
+<ion-icon name="flash" aria-hidden="true"></ion-icon>
+<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+GAMING
+
+BY
+MIRANDA H.
+
+Scientists speculate that ours might not be held
+
+<ion-icon name="cellular" aria-hidden="true"></ion-icon>
+1.0k
+
+<ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+128
+
+<ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+29
+
+
+/*-----------------------------------*\
+  #STORIES
+\*-----------------------------------*/
+
+STORIES
+
+Popular Stories
+
+Stories Post
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = gaming img
+GAMING
+
+BY
+ALONSO D.
+
+NOV 21, 2022
+
+Scientists speculate that ours might not be held
+
+alt = tech img
+
+TECH
+
+BY
+ALONSO D.
+
+NOV 21, 2022
+
+The Multiverse is the collection of alternate universes
+
+
+
+alt = card banner
+<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+GAMING
+
+BY
+MIRANDA H.
+
+Scientists speculate that ours might not be held
+
+<ion-icon name="cellular" aria-hidden="true"></ion-icon>
+1.0k
+
+<ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+128
+
+<ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+29
+
+
+/*-----------------------------------*\
+  #NEWSLETTER
+\*-----------------------------------*/
+
+NEWSLETTER
+Get notified of the best deals on our WordPress Themes
+
+<ion-icon name="mail" aria-hidden="true"></ion-icon>
+Email address
+
+I agree that my submitted data is being collected and stored.
+
+Subscribe
+<ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+Worldwide
+
+U.N.
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+Politics
+
+Executive
+Senate
+House
+Judiciary
+Global Economy
+Foreign policy
+Polls
+Elections
+
+Entertainment
+
+Celebrity News
+Movies
+TV News
+Disasters
+Music News
+Environment
+Style News
+Entertainment Video
+
+Business
+
+Environment
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+Health
+
+Movies
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Scandals
+Environment
+Religion
+
+Trending In
+U.N.
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+
+<!-- footer brand -->
+
+alt = logo
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+Facebook
+25K
+
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+Twitter
+44K
+
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+Youtube
+91K
+
+
+<!-- footer bottom -->
+
+NEXTJS VERSION BY ALITHEMES.COM - 2023
+
+CONTACT US
+
+TERMS OF USE
+
+ADVERTISE
+
+STORE
+
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #BLOG DETAIL PAGE TOPBAR
+\*-----------------------------------*/
+
+<ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+Search here
+
+alt = logo
+
+subscribe
+
+ENG
+<ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+
+
+
+/*-----------------------------------*\
+  #BLOG DETAIL PAGE Header & Navbar
+\*-----------------------------------*/
+
+HOME
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+LIFESTYLE
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+TRAVEL
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+POST TYPE
+<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+
+NFT
+
+<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+<!-- navbar -->
+
+alt = logo
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Search here...
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+
+
+<!-- BLOG DETAIL PAGE -->
+
+
+HOME
+<ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+GAMING
+<ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+SCIENTISTS SPECULATE THAT OURS MIGHT NOT BE HELD
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-behance" aria-hidden="true"></ion-icon>
+<ion-icon name="arrow-redo" aria-hidden="true"></ion-icon>
+
+alt = blog banner
+
+GAMING
+
+BY
+ALONSO D.
+
+NOV 22, 2022
+
+23 COMMENTS
+
+Scientists speculate that ours might not be held
+
+In partnership with Sydney startup Trace, Envato is delivering on its sustainability promise as a B-Corp and meeting part of its recent commitment to the To Whom It Should Concern campaign. Envato is now officially carbon neutral, as part of a comprehensive new sustainability.
+
+When we signed on to the To Whom It May Concern campaign we made a pledge to be 100% renewable by 2030 and carbon zero by 2040,” said Envato CEO Hichame Assi. “It’s a commitment made on the back of our B Corp certification, and one we believe reflects not just our values but a broader sense of how businesses can contribute to fighting climate change.
+
+We are proud that our people can make a positive impact on the world around us through their work at Envato. And while there is still lots of work to do to realise carbon, we’re nonetheless pleased we’ve reached this sustainability milestone and thrilled to partner with Trace to further track and refine the management of our carbon footprint. An through Trace, Envato is now able to more comprehensively measure the amount of carbon emissions the business generates. This includes not just its physical offices in Melbourne, Guadalajara and Los Angeles, but also includes an estimate of the footprint of its 600 plus staff who work flexibly around the world, as well as the usage tied to its tech infrastructure including our cloud computing services.
+
+
+
+<!-- BLOG DETAIL INNER -->
+
+Building the Future of Artificial Intelligence
+
+When we signed on to the To Whom It May Concern campaign we made a pledge to be 100% renewable by 2030 and carbon zero by 2040,” said Envato CEO Hichame Assi. “It’s a commitment made on the back of our B Corp certification, and one we believe reflects not just our values but a broader sense of how businesses can contribute to fighting climate change.
+
+alt = img
+
+The Mount Sandy project in South Australia is one of those supported by Envato through Trace. Its permanent protection of the regionally and culturally important pocket. Trace CEO and Co-Founder Catherine Long said Envato was a perfect example of a fast-moving tech business that already has a demonstrable commitment to sustain. “But they needed a solution for measuring and managing their carbon footprint that matched the speed and efficiency of the way they work footprint that matched the speed.
+
+
+<!-- BLOCKQUOTE -->
+
+“ 20 years ago today, Steve introduced the world to iMac. It set Apple on a new course and forever changed the way people look at computers. ”
+
+Miranda H. Halim
+Head Of Idea
+
+
+<!-- DETAILS TWO -->
+
+We are proud that our people can make a positive impact on the world around us through their work at Envato. And while there is still lots of work to do to realise carbon, we’re nonetheless pleased we’ve reached this sustainability milestone and thrilled to partner with Trace to further track and refine the management of our carbon footprint. An through Trace, Envato is now able to more comprehensively measure the amount of carbon emissions the business generates. This includes not just its physical offices in Melbourne, Guadalajara and Los Angeles, but also includes an estimate of the footprint of its 600 plus staff who work flexibly around the world, as well as the usage tied to its ech infrastructure including our cloud computing services.
+
+The Creative Cloud
+
+When we signed on to the To Whom It May Concern campaign we made a pledge to be 100% renewable by 2030 and carbon zero by 2040,” said Envato CEO Hichame Assi..
+
+<ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+
+The games generate:
+Revenue through sales of digital items, such as special costumes, which appear in a rotating storefront that is updated daily.
+
+Players use in-game:
+Currency to customize their appearance, and the daily refresh of the store incentives players to buy fresh gear or risk missing out on it entirely.
+
+Players have:
+Already spent more than $1 billion on Fortnite’s in-game purchases, according to IGN report.
+
+alt = blog inner page banner
+
+Envato is now able to more comprehensively measure the amount of carbon emissions the business generates. includes not just its physical offices in Melbourne, Guadalajara and Los Angeles, but also includes an estimate of footprint of its 600 plus staff who work flexibly around the world, as well as the usage tied to its tech infrastructure including our cloud computing services lexibly around the world.
+
+
+<!-- blog inner wrapper -->
+
+TECHNOLOGY
+
+FINANCE
+
+BUSINESS
+
+Share Now:
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+
+<!-- BLOG AVATAR -->
+
+
+alt = img
+<ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+
+Monty Hython is a Writer at Sarsa and has been covering emerging technologies and venture capital there since 2013. He covers a wide variety of news from early and late stage startups to massive tech behemoths.
+
+Alison Fiano
+OG Author
+
+<!-- BLOG PREV NEXT POST -->
+
+alt = img
+
+Prev Post
+3 Stocks to Buy and Hold Through the Panic...
+
+alt = img
+
+Next Post
+Mood Boards for Product Designers dome...
+
+
+/*-----------------------------------*\
+  #BLOG DETAIL ASIDE
+\*-----------------------------------*/
+
+alt = person
+Hi there, I’m Rosalina D.
+
+CONTENT WRITER
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-behance" aria-hidden="true"></ion-icon>
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+Trending Category
+
+alt = img
+
+TECHNOLOGY
+12
+
+alt = img
+BUSINESS
+08
+
+alt = img
+FITNESS
+13
+
+alt = img
+GADGETS
+09
+
+alt = img
+POLITICS
+15
+
+
+
+/*-----------------------------------*\
+  #BLOG DETAIL PAGE FOOTER
+\*-----------------------------------*/
+
+Worldwide
+
+U.N.
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+Politics
+
+Executive
+Senate
+House
+Judiciary
+Global Economy
+Foreign policy
+Polls
+Elections
+
+Entertainment
+
+Celebrity News
+Movies
+TV News
+Disasters
+Music News
+Environment
+Style News
+Entertainment Video
+
+Business
+
+Environment
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+Health
+
+Movies
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Scandals
+Environment
+Religion
+
+Trending In
+U.N.
+Conflicts
+Terrorism
+Disasters
+Global Economy
+Environment
+Religion
+Scandals
+
+
+<!-- footer brand -->
+
+alt = logo
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+Facebook
+25K
+
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+Twitter
+44K
+
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+Youtube
+91K
+
+
+<!-- footer bottom -->
+
+NEXTJS VERSION BY ALITHEMES.COM - 2023
+
+CONTACT US
+
+TERMS OF USE
+
+ADVERTISE
+
+STORE
+
+

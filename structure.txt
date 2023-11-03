@@ -1,0 +1,468 @@
+/*-----------------------------------*\
+  #TOPBAR
+\*-----------------------------------*/
+
+.topbar 
+  .input-wrapper
+     ionicon
+     input.input-field
+  
+  a.logo
+     img.img
+
+  .btn-wrapper
+     button.btn.btn-primery
+       span.span
+
+     button.language-btn
+       span.span
+       ionicon
+
+
+
+/*-----------------------------------*\
+  #HEADER & Navbar
+\*-----------------------------------*/
+
+hedear.header
+ .container
+
+   .sidebar-open-btn
+     span.span
+     span.span
+     span.span
+
+   nav.navbar
+     a.logo
+       img.img
+
+     .nav-close-btn
+       ionicon
+
+     .input-wrapper
+       .input-field
+         ionicon
+
+     ul.navbar-list
+       li.navbar-item
+         a.navbar-link
+            span.span
+            ionicon
+
+       ul.social-wrapper
+        li.social-item
+          ionicon
+
+   ul.header-action-list
+     li
+       a.header-action-link
+         ionicon
+       
+   .nav-open-btn
+     span.span
+     span.span
+     span.span
+
+
+
+/*-----------------------------------*\
+  #SIDEBAR
+\*-----------------------------------*/
+
+aside.sidebar
+  .container
+
+   a.logo
+     img.img
+
+   a.sidebar-close-btn
+      ionicon
+
+   p.sidebar-text
+
+   ul.img-wrapper
+     li.img-box
+       img.img-cover
+
+   h2.h2.sidebar-title
+
+   ul.sidebar-info-list
+     li.sidebar-info-item
+
+       ionicon
+       a.sidebar-info-link
+
+   ul.social-wrapper
+     li.social-item
+       a.socila-link
+         ionicon
+
+
+
+
+
+/*-----------------------------------*\
+  #HOME
+\*-----------------------------------*/
+
+section.section.home
+  .container
+    .big-post
+       figure.post-banner.img-holder
+         img.img-cover
+
+       .big-post-content
+          ul.post-content-list
+
+            li.post-content-item
+               span.span.highLighted-text
+
+             li.post-content-item
+               span.span
+                 p.by
+
+          h1.h1.post-title.hover-underline
+
+    .side-post
+      ul.sidebar-list
+         li.sidebar-item
+
+           .post-card.has-before
+              figure.post-banner.img-holder
+                img.img-cover
+
+              .post-content
+                 span.span.highLighted-text
+                 .separator
+
+                 h3.h3.post-title.hover-underline
+
+
+
+/*-----------------------------------*\
+  #POPULAR
+\*-----------------------------------*/
+
+section.section.popular
+  .container
+     ul.title-wrapper.has-before
+
+       li.wrapper-item
+          p.section-subtitle
+          h2.h2.section-title
+
+       li.wrapper-item
+          button.detail-btn
+            a.btn-link
+
+     ul.popular-list.slider-list
+       li.popular-item.slider-item
+
+         .popular-card.post-card
+            .card-badge
+              ionicon
+
+            .icon-box
+              ionicon
+
+            ul.post-content-list
+
+              li.post-content-item
+                span.span.highLighted-text
+
+              li.post-content-item
+                span.span
+                  p.by
+
+            h3.h3.post-title.hover-underline
+
+            ul.post-activity-wrapper
+              li.post-activity-item
+                ionicon
+                span.span.hover-shine
+
+
+
+/*-----------------------------------*\
+  #FEATURED
+\*-----------------------------------*/
+
+section.section.featured
+  .container
+     ul.title-wrapper.has-before
+
+       li.wrapper-item
+          p.section-subtitle.highLighted-text
+          h2.h2.section-title
+
+       li.wrapper-item
+          button.detail-btn
+            a.link
+
+     ul.feature-list
+
+       li.feature-item
+         .feature-card
+           
+            figure.feature-card-banner.img-holder
+              img.img-cover
+
+            .card-content
+              ul.post-content-list
+                li.post-content-item
+                  span.span.highLighted-text
+
+                li.post-content-item
+                  span.span
+                    p.by
+
+              h3.h3.post-title.hover-underline
+
+     figure.feature-banner.img-holder
+       img.img-cover
+
+
+
+/*-----------------------------------*\
+  #RECENT VIDEOS
+\*-----------------------------------*/
+
+section.section.recent-video
+  .container
+     ul.title-wrapper.has-before
+
+       li.wrapper-item
+          p.section-subtitle.highLighted-text
+          h2.h2.section-title
+
+       li.wrapper-item
+          button.detail-btn
+            a.link
+
+     .recent-video
+       .big-video-card
+         figure.card-banner.img-holder
+           img.img-cover
+
+         .post-content
+            ul.post-content-list
+
+              li.post-content-item
+                span.span.highLighted-text
+
+              li.post-content-item
+                span.span
+                  p.by
+
+            h3.h3.post-title.hover-underline
+
+       ul.watch-library
+           li.watch-item.has-before
+
+             .video-card
+                .card-banner-box
+                  figure.video-banner.img-holder
+                    img.img-cover
+
+                  .play-btn
+                     ionicon
+
+             .card-content
+                ul.post-content-list
+                  li.post-content-item
+                    span.span.highLighted-text
+
+                  li.post-content-item
+                    span.span
+                      p.by
+
+                h3.h3.post-title.hover-underline
+
+
+
+/*-----------------------------------*\
+  #MORE TO WATCH 
+\*-----------------------------------*/
+
+.section.section.related-post
+  .container
+     ul.title-wrapper.has-before
+
+       li.wrapper-item
+          p.section-subtitle.highLighted-text
+          h2.h2.section-title
+
+       li.wrapper-item
+          button.detail-btn
+            a.link
+
+      ul.popular-list.slider-list
+       li.popular-item.slider-item
+
+         .popular-card.post-card
+            .card-badge
+              ionicon
+
+            .icon-box
+              ionicon
+
+            ul.post-content-list
+
+              li.post-content-item
+                span.span.highLighted-text
+
+              li.post-content-item
+                span.span
+                  p.by
+
+            h3.h3.post-title.hover-underline
+
+            ul.post-activity-wrapper
+              li.post-activity-item
+                ionicon
+                span.span.hover-shine
+
+
+
+/*-----------------------------------*\
+  #STORIES
+\*-----------------------------------*/
+
+section.section.stories
+  .container
+     ul.title-wrapper.has-before
+
+       li.wrapper-item
+          p.section-subtitle.highLighted-text
+          h2.h2.section-title
+
+       li.wrapper-item
+          button.detail-btn
+            a.link
+
+      ul.popular-list.slider-list
+       li.popular-item.slider-item
+
+         .popular-card.post-card
+            .card-badge
+              ionicon
+
+            .icon-box
+              ionicon
+
+            ul.post-content-list
+
+              li.post-content-item
+                span.span.highLighted-text
+
+              li.post-content-item
+                span.span
+                  p.by
+
+              h3.h3.post-title.hover-underline
+
+      ul.popular-list.slider-list
+       li.popular-item.slider-item
+
+         .popular-card.post-card
+            .card-badge
+              ionicon
+
+            .icon-box
+              ionicon
+
+            ul.post-content-list
+
+              li.post-content-item
+                span.span.highLighted-text
+
+              li.post-content-item
+                span.span
+                  p.by
+
+            h3.h3.post-title.hover-underline
+
+            ul.post-activity-wrapper
+              li.post-activity-item
+                ionicon
+                span.span.hover-shine
+
+
+
+/*-----------------------------------*\
+  #NEWSLETTER
+\*-----------------------------------*/
+
+section.section.newsletter 
+  .container
+
+    .newsletter-content
+      p.section-subtitle
+      h2.h2.section-title
+
+    .form
+
+      div
+        .input-wrapper
+            ionicon
+            input.input-field
+
+        .agreement
+          input:checkbox.checkbox
+          span.span
+
+      
+      button.btn.btn-secondary
+        span.span
+        ionicon
+
+    figure.img-holder.newsletter-svg
+      img.img-cover
+
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+footer.footer
+ .container
+    
+   .footer-top
+     
+     ul.footer-list
+       li
+         a.footer-link
+           span.span
+
+
+   .footer-brand
+    a.logo
+      img.img
+
+    ul.social-list
+      li
+        a.social-link
+          ionicon
+          span.span
+          .badge
+            span.span
+
+
+   .footer-bottom
+
+     .copyright
+       span.copyright-text
+        span.highLighted-text
+
+     ul.footer-bottom-list
+      li
+       a.footer-bottom-link.hover-shine   
+
+
+
+/*-----------------------------------*\
+  #BACK TO TOP BTN
+\*-----------------------------------*/   
+
+a.back-top-btn#top

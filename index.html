@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarsa - News & Magazine HTML Template</title>
+
+  <!-- 
+    - primary meta tags
+  -->
+  <meta name="title" content="Sarsa - News & Magazine HTML Template">
+  <meta name="description" content="this is News & Magazine Html Template made by DuoDevs">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google fonts
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="images" href="./assets/images/big-post.jpg">
+  <link rel="preload" as="images" href="./assets/images/side-blog-1.jpg">
+  <link rel="preload" as="images" href="./assets/images/side-blog-2.jpg">
+
+</head>
+
+<body id="top">
+
+
+
+
+
+  <!-- 
+    - PRELOADER
+  -->
+
+  <div class="preloader">
+
+    <div class="loading">
+      <span class="span"></span>
+      <span class="span"></span>
+      <span class="span"></span>
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- 
+   - #TOPBAR
+  -->
+
+  <div class="topbar">
+
+    <div class="input-wrapper">
+      <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+      <input type="text" class="input-field" placeholder="Search here...">
+    </div>
+
+    <a href="#" class="logo">
+      <img src="./assets/images/w_logo.png" width="218" height="61" alt="logo" class="img">
+    </a>
+
+    <div class="btn-wrapper">
+      <button class="btn btn-primery">
+        <span class="span">subscribe</span>
+      </button>
+
+      <button class="language-btn">
+        <span class="span">ENG</span>
+
+        <ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER and NAVBAR
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo header-logo">
+        <img src="./assets/images/w_logo.png" alt="logo" class="img">
+      </a>
+
+      <div class="sidebar-open-btn" data-sidebar-toggler>
+        <span class="span"></span>
+        <span class="span span-2"></span>
+        <span class="span"></span>
+      </div>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="title-wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/w_logo.png" alt="" class="img">
+          </a>
+
+          <div class="nav-close-btn" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </div>
+        </div>
+
+        <div class="input-box">
+
+          <div class="input-wrapper">
+            <input type="search" placeholder="Search here..." class="input-field">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>
+              <span class="span">Lifestyle</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>
+              <span class="span">Travel</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>
+              <span class="span">Post Type</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>
+              <span class="span">NFT</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="social-wrapper">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action-list">
+
+        <li>
+          <a href="#" class="header-action-link">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="header-action-link">
+            <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="header-action-link">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+      </div>
+
+      <div class="nav-open-menu" data-nav-toggler>
+        <span class="span"></span>
+        <span class="span"></span>
+        <span class="span"></span>
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <div class="overlay" data-overlay></div>
+
+
+
+
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <aside class="sidebar" data-sidebar>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/w_logo.png" width="218" height="61" alt="logo" class="img">
+      </a>
+
+      <div class="sidebar-close-btn" data-sidebar-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </div>
+
+      <p class="sidebar-text">
+        Change how the world works with Biotellus, made for ecology.
+      </p>
+
+      <ul class="img-wrapper">
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/big-post.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/popular-6.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/popular-7.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/popular-8.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/popular-1.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+        <li class="img-box">
+          <figure class="img-holder" style="--width: 820; --height: 440;">
+            <img src="./assets/images/popular-2.jpg" width="820" height="440" alt="" class="img-cover">
+          </figure>
+        </li>
+
+      </ul>
+
+      <h2 class="h2 sidebar-title">Get In Touch</h2>
+
+      <ul class="sidebar-info-list">
+
+        <li class="sidebar-info-item">
+          <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+          <a href="mailto:info@webmail.com" class="sidebar-info-link">info@webmail.com</a>
+        </li>
+
+        <li class="sidebar-info-item">
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+          <a href="tel:88899988877" class="sidebar-info-link">888 999 888 77</a>
+        </li>
+
+        <li class="sidebar-info-item">
+          <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+          <a href="#" class="sidebar-info-link">12/A, New Booston, NYC</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-wrapper">
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </aside>
+
+
+
+
+
+  <!-- 
+    - #HOME
+  -->
+
+  <section class="section home">
+    <div class="container">
+
+      <div class="big-post">
+
+        <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+          <img src="./assets/images/big-post.jpg" width="820" width="440" alt="big post" class="img-cover">
+        </figure>
+
+        <div class="big-post-content">
+          <ul class="post-content-list">
+
+            <li class="post-content-item">
+              <span class="span highLighted-text">TECHNOLOGY</span>
+            </li>
+
+            <li class="post-content-item">
+              <p class="by">BY</p>
+              <span class="span hover-shine">ALONSO D.</span>
+            </li>
+
+            <li class="post-content-item">
+              <span class="span">NOV 21, 2022</span>
+            </li>
+
+          </ul>
+
+          <h1 class="h1 post-title hover-underline">
+            The multiverse is a hypothetical group of multiple universes.
+          </h1>
+        </div>
+
+      </div>
+
+      <div class="side-post">
+
+        <ul class="side-post-list">
+          <li class="side-post-item">
+
+            <div class="post-card has-before">
+
+              <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/side-blog-1.jpg" width="820" height="440" alt="side blog" class="img-cover">
+              </figure>
+
+              <div class="post-content">
+                <span class="span highLighted-text">MULTIVERSE</span>
+
+                <div class="separator"></div>
+
+                <h3 class="h3 post-title hover-underline">Together these universes comprise everything that exists</h3>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="side-post-item">
+
+            <div class="post-card post-card-2 has-before">
+
+              <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/side-blog-2.jpg" width="820" height="440" alt="side blog" class="img-cover">
+              </figure>
+
+              <div class="post-content">
+                <span class="span highLighted-text">TECHNOLOGY</span>
+
+                <div class="separator"></div>
+
+                <h3 class="h3 post-title hover-underline">Bubble universes or baby black hole universes may exist...
+                </h3>
+
+              </div>
+
+            </div>
+
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #POPULAR
+  -->
+
+  <section class="section popular">
+    <div class="container">
+
+      <ul class="title-wrapper has-before">
+
+        <li class="wrapper-item">
+          <p class="section-subtitle highLighted-text">POPULAR POSTS</p>
+
+          <h2 class="h2 section-title">Trending News</h2>
+        </li>
+
+        <li class="wrapper-item">
+          <button class="detail-btn">
+            <a href="#" class="btn-link">More Post</a>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </button>
+        </li>
+
+      </ul>
+
+      <ul class="popular-list slider-list">
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-1.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-2.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-3.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-4.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-5.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-6.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-7.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-8.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #FEATURED
+  -->
+
+  <section class="section featured">
+    <div class="container">
+
+      <ul class="title-wrapper has-before">
+
+        <li class="wrapper-item">
+          <p class="section-subtitle highLighted-text">FEATURED</p>
+
+          <h2 class="h2 section-title">Editor Choice</h2>
+        </li>
+
+        <li class="wrapper-item">
+          <button class="detail-btn">
+            <a href="#" class="detail-btn">
+              More Featured Post
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </button>
+        </li>
+
+      </ul>
+
+      <ul class="feature-list">
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-1.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">09</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                A hypothetical collection of potentially diverse
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-2.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">010</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">TECH</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Experimentally accessible by a connected community
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-3.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">011</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">MOVIE</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Stanford physicists Andrei Linde In a new study
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-4.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">012</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">SPORTS</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Observable universes each of which would comprise
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-5.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">013</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">TECH</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Of observers the observable known universe
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="post-banner-box">
+              <figure class="feature-card-banner img-holder" style="--width: 820; --height: 440;">
+                <img src="./assets/images/featured-6.jpg" width="820" height="440" loading="lazy"
+                  alt="featured card banner" class="img-cover">
+              </figure>
+
+              <div class="feature-thumb-text">014</div>
+            </div>
+
+            <div class="card-content">
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">TECH</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">YOKOLILI L.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Accessible to telescopes, is about 90 billion years
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <figure class="feature-banner img-holder" style="--width: 728; --height: 90;">
+        <img src="./assets/images/featured-banner.png" width="728" height="90" loading="lazy" alt="featured card banner"
+          class="img-cover">
+      </figure>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #RECENT VIDEOS
+  -->
+
+  <section class="section recent-video">
+    <div class="container">
+
+      <ul class="title-wrapper has-before">
+
+        <li class="wrapper-item">
+          <p class="section-subtitle highLighted-text">VIDEO</p>
+
+          <h2 class="h2 section-title">Recent Video Post</h2>
+        </li>
+
+        <li class="wrapper-item">
+          <button class="detail-btn">
+            <a href="#" class="detail-btn">
+              More Video Post
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </button>
+        </li>
+
+      </ul>
+
+      <div class="videos">
+
+        <div class="big-video-card">
+
+          <div class="post-banner-box">
+            <figure class="card-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/big-video.jpg" width="820" height="440" loading="lazy" alt="smart phone img"
+                class="img-cover">
+            </figure>
+
+            <div class="play-btn">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </div>
+          </div>
+
+          <div class="post-content">
+            <ul class="post-content-list">
+
+              <li class="post-content-item">
+                <span class="span highLighted-text">TECHNOLOGY</span>
+              </li>
+
+              <li class="post-content-item">
+                <p class="by">BY</p>
+
+                <span class="span hover-shine">ALONSO D.</span>
+              </li>
+
+              <li class="post-content-item">
+                <span class="span">NOV 21, 2022</span>
+              </li>
+
+            </ul>
+
+            <h3 class="h3 post-title hover-underline">
+              The multiverse is a hypothetical group of multiple universes.
+            </h3>
+          </div>
+
+        </div>
+
+        <ul class="watch-library">
+
+          <li class="watch-item has-before">
+            <div class="video-card">
+
+              <div class="post-banner-box">
+                <figure class="card-banner img-holder" style="--width: 820; --height: 440;">
+                  <img src="./assets/images/side-video-1.jpg" width="820" height="440" loading="lazy" alt="sports img"
+                    class="img-cover">
+                </figure>
+
+                <div class="play-btn">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <ul class="post-content-list">
+
+                  <li class="post-content-item">
+                    <span class="span highLighted-text">SPORTS</span>
+                  </li>
+
+                  <li class="post-content-item">
+                    <p class="by">BY</p>
+
+                    <span class="span">ALONSO D.</span>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 post-title hover-underline">
+                  Observable universes each of which would comprise
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="watch-item has-before">
+            <div class="video-card">
+
+              <div class="post-banner-box">
+                <figure class="card-banner img-holder" style="--width: 820; --height: 440;">
+                  <img src="./assets/images/side-video-2.jpg" width="820" height="440" loading="lazy" alt="gaming img"
+                    class="img-cover">
+                </figure>
+
+                <div class="play-btn">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <ul class="post-content-list">
+
+                  <li class="post-content-item">
+                    <span class="span highLighted-text">GAMING</span>
+                  </li>
+
+                  <li class="post-content-item">
+                    <p class="by">BY</p>
+
+                    <span class="span">ALONSO D.</span>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 post-title hover-underline">
+                  Scientists speculate that ours might not be held
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="watch-item has-before">
+            <div class="video-card">
+
+              <div class="post-banner-box">
+                <figure class="card-banner img-holder" style="--width: 820; --height: 440;">
+                  <img src="./assets/images/side-video-3.jpg" width="820" height="440" loading="lazy" alt="tech img"
+                    class="img-cover">
+                </figure>
+
+                <div class="play-btn">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <ul class="post-content-list">
+
+                  <li class="post-content-item">
+                    <span class="span highLighted-text">TECH</span>
+                  </li>
+
+                  <li class="post-content-item">
+                    <p class="by">BY</p>
+
+                    <span class="span">ALONSO D.</span>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 post-title hover-underline">
+                  The Multiverse is the collection of alternate universes
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="watch-item has-before">
+            <div class="video-card">
+
+              <div class="post-banner-box">
+                <figure class="card-banner img-holder" style="--width: 820; --height: 440;">
+                  <img src="./assets/images/side-video-4.jpg" width="820" height="440" loading="lazy" alt="movie img"
+                    class="img-cover">
+                </figure>
+
+                <div class="play-btn">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <ul class="post-content-list">
+
+                  <li class="post-content-item">
+                    <span class="span highLighted-text">MOVIE</span>
+                  </li>
+
+                  <li class="post-content-item">
+                    <p class="by">BY</p>
+
+                    <span class="span">ALONSO D.</span>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 post-title hover-underline">
+                  That share a universal hierarchy a large variety of these
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #MORE TO WATCH
+  -->
+
+  <section class="section related-post">
+    <div class="container">
+
+      <ul class="title-wrapper has-before">
+
+        <li class="wrapper-item">
+          <p class="section-subtitle">HAND-PICKED</p>
+
+          <h2 class="h2 section-title">More to Watch</h2>
+        </li>
+
+        <li class="wrapper-item">
+          <button class="detail-btn">
+            <a href="#" class="detail-btn">Hand-Picked Post</a>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </button>
+        </li>
+
+      </ul>
+
+      <ul class="popular-list slider-list">
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-4.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-5.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-2.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-1.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-3.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-6.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-7.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item slider-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/popular-8.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="card-badge">
+                <ion-icon name="flash" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #STORIES
+  -->
+
+  <section class="section stories">
+    <div class="container">
+
+      <ul class="title-wrapper has-before">
+
+        <li class="wrapper-item">
+          <p class="section-subtitle highLighted-text">STORIES</p>
+
+          <h2 class="h2 section-title">Popular Stories</h2>
+        </li>
+
+        <li class="wrapper-item">
+          <button class="detail-btn">
+            <a href="#" class="detail-btn">Stories Post</a>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </button>
+        </li>
+
+      </ul>
+
+      <ul class="popular-list story-list">
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-1.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+                <li class="post-content-item">
+                  <span class="span">NOV 21, 2022</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Scientists speculate that ours might not be held
+              </h3>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-2.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+                <li class="post-content-item">
+                  <span class="span">NOV 21, 2022</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                The Multiverse is the collection of alternate universes
+              </h3>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <ul class="popular-list story-list-2">
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-3.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                That share a universal hierarchy a large variety of these
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-4.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Universes were originated from another due to a major
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-5.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                A hypothetical collection of potentially diverse
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="popular-item">
+          <div class="popular-card post-card">
+
+            <figure class="post-banner img-holder" style="--width: 820; --height: 440;">
+              <img src="./assets/images/story-6.jpg" width="820" height="440" loading="lazy" alt="card banner"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+              <div class="icon-box">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <ul class="post-content-list">
+
+                <li class="post-content-item">
+                  <span class="span highLighted-text">GAMING</span>
+                </li>
+
+                <li class="post-content-item">
+                  <p class="by">BY</p>
+
+                  <span class="span hover-shine">MIRANDA H.</span>
+                </li>
+
+              </ul>
+
+              <h3 class="h3 post-title hover-underline">
+                Stanford physicists Andrei Linde In a new study
+              </h3>
+
+              <ul class="post-activity-wrapper">
+
+                <li class="post-activity-item">
+                  <ion-icon name="cellular" aria-hidden="true"></ion-icon>
+
+                  <span class="span">1.0k</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span hover-shine">128</span>
+                </li>
+
+                <li class="post-activity-item">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">29</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #NEWSLETTER
+  -->
+
+  <section class="section newsletter">
+    <div class="container">
+
+      <div class="newsletter-content">
+        <p class="section-subtitle">NEWSLETTER</p>
+
+        <h2 class="h2 section-title">
+          Get notified of the best deals on our WordPress Themes
+        </h2>
+      </div>
+
+      <div class="form">
+
+        <div class="wrapper">
+          <div>
+            <div class="input-wrapper">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+              <input type="text" placeholder="Email address" class="input-field">
+            </div>
+          </div>
+
+          <form class="agreement">
+            <input type="checkbox" id="agreement" name="agreement" class="checkbox">
+
+            <label for="agreement" class="span">I agree that my submitted data is being collected and stored.</label>
+          </form>
+        </div>
+
+        <button class="btn btn-secondary">
+          <span class="span">Subscribe</span>
+
+          <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <!-- <figure class="img-holder newsletter-svg" style="--width: ; --height: ;">
+        <img src="./assets/image" alt="" class="img-cover">
+      </figure> -->
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Worldwide</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">U.N.</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Conflicts</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Terrorism</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Disasters</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Global Economy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Religion</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Scandals</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Politics</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Executive</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Senate</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">House</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Judiciary</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Global Economy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Foreign policy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Polls</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Elections</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Entertainment</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Celebrity News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Movies</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">TV News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Disasters</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Music News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Style News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Entertainment Video</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Business</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Conflicts</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Terrorism</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Disasters</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Global Economy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Religion</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Scandals</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Health</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Movies</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Conflicts</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Terrorism</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Disasters</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Global Economy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Scandals</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Religion</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">
+              <h3 class="footer-list-title">Trending In</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">U.N.</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Conflicts</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Terrorism</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Disasters</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Global Economy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Environment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Religion</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Scandals</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <img src="./assets/images/w_logo.png" width="218" height="61" loading="lazy" alt="footer logo" class="img">
+        </a>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+
+              <span class="span">Facebook</span>
+
+              <div class="badge">
+                <span class="badge-data">25K</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+
+              <span class="span">Twitter</span>
+
+              <div class="badge">
+                <span class="badge-data">44K</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+              <span class="span">Youtube</span>
+
+              <div class="badge">
+                <span class="badge-data">91K</span>
+              </div>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="copyright">
+
+          <span class="copyright-text">
+            NEXTJS VERSION BY
+            <a class="copyright-link"> ALITHEMES.COM </a> - 2023
+          </span>
+
+        </div>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link hover-shine">CONTACT US</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link hover-shine">TERMS OF USE</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link hover-shine">ADVERTISE</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link hover-shine">STORE</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
